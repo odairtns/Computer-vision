@@ -1,0 +1,85 @@
+# Equipment Detection Training Configuration
+
+# Dataset Configuration
+data_dir: 'data'
+classes:
+  - 'hard_hat'
+  - 'safety_vest'
+  - 'safety_boots'
+  - 'safety_glasses'
+  - 'gloves'
+  - 'ear_protection'
+  - 'respirator'
+  - 'scrubs'
+  - 'stethoscope'
+  - 'face_mask'
+  - 'lab_coat'
+  - 'safety_goggles'
+  - 'apron'
+  - 'shoe_covers'
+  - 'hair_net'
+  - 'safety_shoes'
+
+# Image Configuration
+image_size: [640, 640]
+
+# Training Configuration
+batch_size: 16
+epochs: 100
+learning_rate: 0.01
+model_name: 'yolov8n.pt'
+project_name: 'equipment_detection'
+run_name: 'train'
+
+# Dataset Splitting
+split_dataset: true
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+
+# Training Parameters
+save_period: 10
+patience: 50
+conf_threshold: 0.001
+iou_threshold: 0.6
+max_det: 300
+half_precision: true
+deterministic: true
+seed: 0
+amp: true
+cos_lr: false
+close_mosaic: 10
+resume: false
+multi_scale: false
+rect: false
+single_cls: false
+label_smoothing: 0.0
+dropout: 0.0
+
+# Loss Configuration
+box_loss_gain: 0.05
+cls_loss_gain: 0.5
+dfl_loss_gain: 1.5
+pose_loss_gain: 12.0
+kobj_loss_gain: 2.0
+
+# Optimizer Configuration
+warmup_epochs: 3
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+final_lr_factor: 0.1
+momentum: 0.937
+weight_decay: 0.0005
+
+# Augmentation Configuration
+overlap_mask: true
+mask_ratio: 4
+fraction: 1.0
+profile: false
+freeze: null
+dnn: false
+agnostic_nms: false
+retina_masks: false
+boxes: true
+
+

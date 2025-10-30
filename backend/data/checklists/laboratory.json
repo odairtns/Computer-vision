@@ -1,0 +1,17 @@
+{
+  "name": "Laboratory Safety Equipment",
+  "description": "Required safety equipment for laboratory workers",
+  "required_equipment": [
+    "lab_coat",
+    "safety_goggles",
+    "gloves",
+    "face_mask"
+  ],
+  "optional_equipment": [
+    "safety_shoes",
+    "apron",
+    "hair_net"
+  ]
+}
+
+

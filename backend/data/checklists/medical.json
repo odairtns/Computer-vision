@@ -1,0 +1,17 @@
+{
+  "name": "Medical Equipment",
+  "description": "Required medical equipment for healthcare workers",
+  "required_equipment": [
+    "scrubs",
+    "stethoscope",
+    "face_mask",
+    "gloves"
+  ],
+  "optional_equipment": [
+    "safety_goggles",
+    "apron",
+    "shoe_covers"
+  ]
+}
+
+

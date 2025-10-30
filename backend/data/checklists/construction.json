@@ -1,0 +1,17 @@
+{
+  "name": "Construction Safety Equipment",
+  "description": "Required safety equipment for construction workers",
+  "required_equipment": [
+    "hard_hat",
+    "safety_vest",
+    "safety_boots",
+    "safety_glasses"
+  ],
+  "optional_equipment": [
+    "gloves",
+    "ear_protection",
+    "respirator"
+  ]
+}
+
+
