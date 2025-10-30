@@ -1,4 +1,4 @@
-# 🎯 Equipment Verification System - Project Summary
+# 🎯 Equipment Verification System - Project Summary 1.0
 
 ## 📋 Project Overview
 
